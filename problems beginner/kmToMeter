@@ -1,0 +1,13 @@
+function conversation(km){
+    return km*1000 + " meters";
+}
+
+
+console.log(conversation(0.1));
+
+function miles(km){
+    let oneKM = 0.6123;
+    return km*oneKM+ " miles"
+}
+
+console.log(miles(5));
